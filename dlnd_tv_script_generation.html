@@ -13280,7 +13280,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">problem_unittests</span> <span class="k">as</span> <span class="nn">tests</span>
@@ -13294,8 +13294,8 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
     <span class="n">vocab</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span><span class="n">key</span><span class="o">=</span><span class="n">counts</span><span class="o">.</span><span class="n">get</span><span class="p">,</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">vocab_to_int</span> <span class="o">=</span> <span class="p">{</span><span class="n">word</span><span class="p">:</span><span class="n">idx</span> <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">,</span><span class="mi">1</span><span class="p">)}</span>
-    <span class="n">int_to_vocab</span> <span class="o">=</span> <span class="p">{</span><span class="n">idx</span><span class="p">:</span><span class="n">word</span> <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">,</span><span class="mi">1</span><span class="p">)}</span>
+    <span class="n">vocab_to_int</span> <span class="o">=</span> <span class="p">{</span><span class="n">word</span><span class="p">:</span><span class="n">idx</span> <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">)}</span>
+    <span class="n">int_to_vocab</span> <span class="o">=</span> <span class="p">{</span><span class="n">idx</span><span class="p">:</span><span class="n">word</span> <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">)}</span>
     <span class="c1"># return tuple</span>
     <span class="k">return</span> <span class="p">(</span><span class="n">vocab_to_int</span><span class="p">,</span> <span class="n">int_to_vocab</span><span class="p">)</span>
 
@@ -13353,7 +13353,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">token_lookup</span><span class="p">():</span>
@@ -13414,7 +13414,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13439,7 +13439,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13466,7 +13466,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13535,7 +13535,7 @@ sequence_length = 4</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">torch.utils.data</span> <span class="k">import</span> <span class="n">TensorDataset</span><span class="p">,</span> <span class="n">DataLoader</span>
@@ -13550,24 +13550,18 @@ sequence_length = 4</code></pre>
 <span class="sd">    :return: DataLoader with batched data</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement function</span>
-    <span class="n">n_batches</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">)</span><span class="o">//</span><span class="n">batch_size</span>
-    <span class="c1"># only full batches</span>
-    <span class="n">words</span> <span class="o">=</span> <span class="n">words</span><span class="p">[:</span><span class="n">n_batches</span><span class="o">*</span><span class="n">batch_size</span><span class="p">]</span>
-    <span class="n">y_len</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">)</span> <span class="o">-</span> <span class="n">sequence_length</span>
-    <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">idx</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">y_len</span><span class="p">):</span>
-        <span class="n">idx_end</span> <span class="o">=</span> <span class="n">sequence_length</span> <span class="o">+</span> <span class="n">idx</span>
-        <span class="n">x_batch</span> <span class="o">=</span> <span class="n">words</span><span class="p">[</span><span class="n">idx</span><span class="p">:</span><span class="n">idx_end</span><span class="p">]</span>
-        <span class="n">x</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x_batch</span><span class="p">)</span>
-<span class="c1">#         print(&quot;feature: &quot;,x_batch)</span>
-        <span class="n">batch_y</span> <span class="o">=</span>  <span class="n">words</span><span class="p">[</span><span class="n">idx_end</span><span class="p">]</span>
-<span class="c1">#         print(&quot;target: &quot;, batch_y)    </span>
-        <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">batch_y</span><span class="p">)</span>    
+    <span class="n">output</span><span class="p">,</span> <span class="n">target</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">sequence_number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">)</span> <span class="o">-</span> <span class="n">sequence_length</span><span class="p">):</span>
+        <span class="n">sequence</span> <span class="o">=</span> <span class="n">words</span><span class="p">[</span><span class="n">sequence_number</span><span class="p">:</span><span class="n">sequence_number</span> <span class="o">+</span> <span class="n">sequence_length</span><span class="p">]</span>
+        <span class="n">output</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span>
+        <span class="n">target</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">words</span><span class="p">[</span><span class="n">sequence_number</span> <span class="o">+</span> <span class="n">sequence_length</span><span class="p">])</span>           
 
+    <span class="n">feature_tensors</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">from_numpy</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">output</span><span class="p">))</span>
+    <span class="n">target_tensors</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">from_numpy</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">target</span><span class="p">))</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">TensorDataset</span><span class="p">(</span><span class="n">feature_tensors</span><span class="p">,</span> <span class="n">target_tensors</span><span class="p">)</span>
+    <span class="n">data_loader</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">DataLoader</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> 
+                                          <span class="n">batch_size</span><span class="o">=</span><span class="n">batch_size</span><span class="p">)</span>
     
-    <span class="n">data</span> <span class="o">=</span> <span class="n">TensorDataset</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">from_numpy</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">x</span><span class="p">)),</span> <span class="n">torch</span><span class="o">.</span><span class="n">from_numpy</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">y</span><span class="p">)))</span>
-    <span class="c1"># make sure the SHUFFLE your training data</span>
-    <span class="n">data_loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="n">batch_size</span><span class="p">)</span>
     <span class="c1"># return a dataloader</span>
     <span class="k">return</span> <span class="n">data_loader</span>
 
@@ -13609,7 +13603,7 @@ tensor([ 33,  26,  22,  39,  16,  28,  11,  43,  30,  12])</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># test dataloader</span>
@@ -13690,7 +13684,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="nn">nn</span>
@@ -13703,7 +13697,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">RNN</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
@@ -13718,6 +13712,7 @@ out = output[:, -1]</code></pre>
 <span class="sd">        :param dropout: dropout to add in between LSTM/GRU layers</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">RNN</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        <span class="c1"># set class variables</span>
         <span class="c1"># set class variables</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_size</span> <span class="o">=</span> <span class="n">output_size</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">n_layers</span> <span class="o">=</span> <span class="n">n_layers</span>
@@ -13741,7 +13736,6 @@ out = output[:, -1]</code></pre>
 <span class="sd">        :param hidden: The hidden state        </span>
 <span class="sd">        :return: Two Tensors, the output of the neural network and the latest hidden state</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="c1"># TODO: Implement function   </span>
         <span class="n">batch_size</span> <span class="o">=</span> <span class="n">nn_input</span><span class="o">.</span><span class="n">size</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
         
         <span class="n">embeddings</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">embedding</span><span class="p">(</span><span class="n">nn_input</span><span class="p">))</span>  
@@ -13820,7 +13814,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">forward_back_prop</span><span class="p">(</span><span class="n">rnn</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">criterion</span><span class="p">,</span> <span class="n">inp</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">hidden</span><span class="p">):</span>
@@ -13837,25 +13831,20 @@ out = output[:, -1]</code></pre>
     <span class="c1"># TODO: Implement Function</span>
     
     <span class="c1"># move data to GPU, if available</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">train_on_gpu</span><span class="p">):</span>
-        <span class="n">rnn</span><span class="o">.</span><span class="n">cuda</span><span class="p">()</span>
-    <span class="n">h</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">([</span><span class="n">each</span><span class="o">.</span><span class="n">data</span> <span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="n">hidden</span><span class="p">])</span>
-
+    <span class="k">if</span> <span class="n">train_on_gpu</span><span class="p">:</span>
+        <span class="n">inp</span><span class="p">,</span> <span class="n">target</span> <span class="o">=</span> <span class="n">inp</span><span class="o">.</span><span class="n">cuda</span><span class="p">(),</span> <span class="n">target</span><span class="o">.</span><span class="n">cuda</span><span class="p">()</span>
+    
+    <span class="c1"># perform backpropagation and optimization</span>
+    <span class="n">hidden</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">([</span><span class="n">each</span><span class="o">.</span><span class="n">data</span> <span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="n">hidden</span><span class="p">])</span>
     <span class="n">rnn</span><span class="o">.</span><span class="n">zero_grad</span><span class="p">()</span>
-    
-    <span class="k">if</span><span class="p">(</span><span class="n">train_on_gpu</span><span class="p">):</span>
-        <span class="n">inputs</span><span class="p">,</span> <span class="n">target</span> <span class="o">=</span> <span class="n">inp</span><span class="o">.</span><span class="n">cuda</span><span class="p">(),</span> <span class="n">target</span><span class="o">.</span><span class="n">cuda</span><span class="p">()</span>
-    
-    <span class="n">output</span><span class="p">,</span> <span class="n">h</span> <span class="o">=</span> <span class="n">rnn</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="n">h</span><span class="p">)</span>
-    
-    <span class="c1"># calculate loss</span>
+    <span class="n">output</span><span class="p">,</span> <span class="n">hidden</span> <span class="o">=</span> <span class="n">rnn</span><span class="p">(</span><span class="n">inp</span><span class="p">,</span> <span class="n">hidden</span><span class="p">)</span>
     <span class="n">loss</span> <span class="o">=</span> <span class="n">criterion</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">target</span><span class="p">)</span>
-    
     <span class="n">loss</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>
-    <span class="n">nn</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">clip_grad_norm_</span><span class="p">(</span><span class="n">rnn</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="mi">5</span><span class="p">)</span>
-
     <span class="n">optimizer</span><span class="o">.</span><span class="n">step</span><span class="p">()</span>
-    <span class="k">return</span> <span class="n">loss</span><span class="o">.</span><span class="n">item</span><span class="p">(),</span> <span class="n">h</span>
+
+
+    <span class="c1"># return the loss over a batch and the hidden state produced by our model</span>
+    <span class="k">return</span> <span class="n">loss</span><span class="o">.</span><span class="n">item</span><span class="p">(),</span> <span class="n">hidden</span>
 
 <span class="c1"># Note that these tests aren&#39;t completely extensive.</span>
 <span class="c1"># they are here to act as general checks on the expected outputs of your functions</span>
@@ -13866,6 +13855,24 @@ out = output[:, -1]</code></pre>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Tests Passed
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13881,7 +13888,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13949,7 +13956,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Data params</span>
@@ -13969,7 +13976,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Training parameters</span>
@@ -13986,12 +13993,12 @@ out = output[:, -1]</code></pre>
 <span class="c1"># Embedding Dimension</span>
 <span class="n">embedding_dim</span> <span class="o">=</span> <span class="mi">200</span>
 <span class="c1"># Hidden Dimension</span>
-<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">250</span>
+<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">200</span>
 <span class="c1"># Number of RNN Layers</span>
 <span class="n">n_layers</span> <span class="o">=</span> <span class="mi">2</span>
 
 <span class="c1"># Show stats for every n number of batches</span>
-<span class="n">show_every_n_batches</span> <span class="o">=</span> <span class="mi">1000</span>
+<span class="n">show_every_n_batches</span> <span class="o">=</span> <span class="mi">3000</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;CUDA_LAUNCH_BLOCKING&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
 </pre></div>
@@ -14053,251 +14060,83 @@ out = output[:, -1]</code></pre>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Training for 10 epoch(s)...
-Epoch:    1/10    Loss: 5.328050636768341
+Epoch:    1/10    Loss: 5.002952545801799
 
-Epoch:    1/10    Loss: 4.880089111089706
+Epoch:    1/10    Loss: 4.623482486645381
 
-Epoch:    1/10    Loss: 4.6752853910923005
+Epoch:    1/10    Loss: 4.471642431418101
 
-Epoch:    1/10    Loss: 4.561299957990647
+Epoch:    1/10    Loss: 4.455136372804642
 
-Epoch:    1/10    Loss: 4.5741828820705415
+Epoch:    2/10    Loss: 4.2953003827172465
 
-Epoch:    1/10    Loss: 4.612167721509933
+Epoch:    2/10    Loss: 4.142750672896703
 
-Epoch:    1/10    Loss: 4.518753562450409
+Epoch:    2/10    Loss: 4.10760257657369
 
-Epoch:    1/10    Loss: 4.408326136112213
+Epoch:    2/10    Loss: 4.13921015906334
 
-Epoch:    1/10    Loss: 4.3798490827083585
+Epoch:    3/10    Loss: 4.081236508771654
 
-Epoch:    1/10    Loss: 4.3392037107944486
+Epoch:    3/10    Loss: 3.9972054914633435
 
-Epoch:    1/10    Loss: 4.455622899770737
+Epoch:    3/10    Loss: 3.951493219534556
 
-Epoch:    1/10    Loss: 4.494150853395462
+Epoch:    3/10    Loss: 4.002636519829432
 
-Epoch:    1/10    Loss: 4.499015566587448
+Epoch:    4/10    Loss: 3.9622126403282616
 
-Epoch:    2/10    Loss: 4.311197131287818
+Epoch:    4/10    Loss: 3.9088573654492698
 
-Epoch:    2/10    Loss: 4.158604666948318
+Epoch:    4/10    Loss: 3.8652332158486047
 
-Epoch:    2/10    Loss: 4.076616528987884
+Epoch:    4/10    Loss: 3.9128155861695606
 
-Epoch:    2/10    Loss: 4.029087673425675
+Epoch:    5/10    Loss: 3.881169921354042
 
-Epoch:    2/10    Loss: 4.120554815769196
+Epoch:    5/10    Loss: 3.841190505584081
 
-Epoch:    2/10    Loss: 4.19475046992302
+Epoch:    5/10    Loss: 3.799563809752464
 
-Epoch:    2/10    Loss: 4.128216554403305
+Epoch:    5/10    Loss: 3.8364144385655723
 
-Epoch:    2/10    Loss: 4.041430494546891
+Epoch:    6/10    Loss: 3.81611184654846
 
-Epoch:    2/10    Loss: 4.056036387205124
+Epoch:    6/10    Loss: 3.7718979427814485
 
-Epoch:    2/10    Loss: 4.0009268887043
+Epoch:    6/10    Loss: 3.7411135577758152
 
-Epoch:    2/10    Loss: 4.135639615058899
+Epoch:    6/10    Loss: 3.786227012395859
 
-Epoch:    2/10    Loss: 4.165451145410538
+Epoch:    7/10    Loss: 3.764011741408599
 
-Epoch:    2/10    Loss: 4.1930616991519924
+Epoch:    7/10    Loss: 3.7275853203137714
 
-Epoch:    3/10    Loss: 4.089247240370641
+Epoch:    7/10    Loss: 3.700077510515849
 
-Epoch:    3/10    Loss: 3.9683024897575376
+Epoch:    7/10    Loss: 3.7427060512304307
 
-Epoch:    3/10    Loss: 3.9126463589668274
+Epoch:    8/10    Loss: 3.7258943306287065
 
-Epoch:    3/10    Loss: 3.8854799802303313
+Epoch:    8/10    Loss: 3.691819262822469
 
-Epoch:    3/10    Loss: 3.9627884287834165
+Epoch:    8/10    Loss: 3.664104363441467
 
-Epoch:    3/10    Loss: 4.038600479364395
+Epoch:    8/10    Loss: 3.7110560691356658
 
-Epoch:    3/10    Loss: 3.9706584501266478
+Epoch:    9/10    Loss: 3.6958389082377825
 
-Epoch:    3/10    Loss: 3.888798166513443
+Epoch:    9/10    Loss: 3.6604030385812125
 
-Epoch:    3/10    Loss: 3.9036745526790617
+Epoch:    9/10    Loss: 3.6363219732840855
 
-Epoch:    3/10    Loss: 3.8604144048690796
+Epoch:    9/10    Loss: 3.673451787789663
 
-Epoch:    3/10    Loss: 4.024726669788361
+Epoch:   10/10    Loss: 3.6704098632109265
 
-Epoch:    3/10    Loss: 4.05259855556488
+Epoch:   10/10    Loss: 3.637951452732086
 
-Epoch:    3/10    Loss: 4.056470127105713
-
-Epoch:    4/10    Loss: 3.9566734313226704
-
-Epoch:    4/10    Loss: 3.855464775919914
-
-Epoch:    4/10    Loss: 3.8021355895996094
-
-Epoch:    4/10    Loss: 3.787117349624634
-
-Epoch:    4/10    Loss: 3.8615543477535246
-
-Epoch:    4/10    Loss: 3.930068695783615
-
-Epoch:    4/10    Loss: 3.8737496104240416
-
-Epoch:    4/10    Loss: 3.7992378957271575
-
-Epoch:    4/10    Loss: 3.8175962598323823
-
-Epoch:    4/10    Loss: 3.752732920885086
-
-Epoch:    4/10    Loss: 3.9178253424167635
-
-Epoch:    4/10    Loss: 3.9447870953083037
-
-Epoch:    4/10    Loss: 3.95529626584053
-
-Epoch:    5/10    Loss: 3.8704021604437577
-
-Epoch:    5/10    Loss: 3.7730828911066054
-
-Epoch:    5/10    Loss: 3.719215341806412
-
-Epoch:    5/10    Loss: 3.713325726270676
-
-Epoch:    5/10    Loss: 3.7767903187274934
-
-Epoch:    5/10    Loss: 3.8501545627117157
-
-Epoch:    5/10    Loss: 3.797151930093765
-
-Epoch:    5/10    Loss: 3.7323892455101015
-
-Epoch:    5/10    Loss: 3.742707894206047
-
-Epoch:    5/10    Loss: 3.683706398963928
-
-Epoch:    5/10    Loss: 3.837133770227432
-
-Epoch:    5/10    Loss: 3.8625419187545775
-
-Epoch:    5/10    Loss: 3.869579488515854
-
-Epoch:    6/10    Loss: 3.810515343220241
-
-Epoch:    6/10    Loss: 3.7126647398471833
-
-Epoch:    6/10    Loss: 3.6622970249652864
-
-Epoch:    6/10    Loss: 3.661504564523697
-
-Epoch:    6/10    Loss: 3.7089503076076507
-
-Epoch:    6/10    Loss: 3.783413989305496
-
-Epoch:    6/10    Loss: 3.739571506023407
-
-Epoch:    6/10    Loss: 3.665263257980347
-
-Epoch:    6/10    Loss: 3.69714825630188
-
-Epoch:    6/10    Loss: 3.6320090622901917
-
-Epoch:    6/10    Loss: 3.7829965753555297
-
-Epoch:    6/10    Loss: 3.80556804895401
-
-Epoch:    6/10    Loss: 3.809129001379013
-
-Epoch:    7/10    Loss: 3.753369931097001
-
-Epoch:    7/10    Loss: 3.66585440325737
-
-Epoch:    7/10    Loss: 3.6133183727264404
-
-Epoch:    7/10    Loss: 3.6013840930461885
-
-Epoch:    7/10    Loss: 3.662501435995102
-
-Epoch:    7/10    Loss: 3.7369152443408966
-
-Epoch:    7/10    Loss: 3.6897110521793364
-
-Epoch:    7/10    Loss: 3.619087898492813
-
-Epoch:    7/10    Loss: 3.6259444009065627
-
-Epoch:    7/10    Loss: 3.587205805182457
-
-Epoch:    7/10    Loss: 3.7243758616447447
-
-Epoch:    7/10    Loss: 3.757366958141327
-
-Epoch:    7/10    Loss: 3.768211504936218
-
-Epoch:    8/10    Loss: 3.709234089059111
-
-Epoch:    8/10    Loss: 3.6298064517974855
-
-Epoch:    8/10    Loss: 3.585938679456711
-
-Epoch:    8/10    Loss: 3.5599733138084413
-
-Epoch:    8/10    Loss: 3.6174574863910673
-
-Epoch:    8/10    Loss: 3.7064204175472257
-
-Epoch:    8/10    Loss: 3.6449258403778075
-
-Epoch:    8/10    Loss: 3.582198173761368
-
-Epoch:    8/10    Loss: 3.5735491297245026
-
-Epoch:    8/10    Loss: 3.5469674741029737
-
-Epoch:    8/10    Loss: 3.6829472889900208
-
-Epoch:    8/10    Loss: 3.713335672855377
-
-Epoch:    8/10    Loss: 3.7131763854026794
-
-Epoch:    9/10    Loss: 3.6695992080542816
-
-Epoch:    9/10    Loss: 3.5954346791505816
-
-Epoch:    9/10    Loss: 3.5462320334911346
-
-Epoch:    9/10    Loss: 3.5229693548679353
-
-Epoch:    9/10    Loss: 3.5809320068359374
-
-Epoch:    9/10    Loss: 3.6689093163013458
-
-Epoch:    9/10    Loss: 3.608926276922226
-
-Epoch:    9/10    Loss: 3.5523535306453704
-
-Epoch:    9/10    Loss: 3.539468150138855
-
-Epoch:    9/10    Loss: 3.5205937906503677
-
-Epoch:    9/10    Loss: 3.6473027808666227
-
-Epoch:    9/10    Loss: 3.685772614479065
-
-Epoch:    9/10    Loss: 3.6776107480525972
-
-Epoch:   10/10    Loss: 3.6342079661578954
-
-Epoch:   10/10    Loss: 3.568292272567749
-
-Epoch:   10/10    Loss: 3.5190490574836732
-
-Epoch:   10/10    Loss: 3.4965722987651824
-
-Epoch:   10/10    Loss: 3.55294105386734
-
-Epoch:   10/10    Loss: 3.6492671902179716
+Epoch:   10/10    Loss: 3.608753047744433
 
 </pre>
 </div>
@@ -14354,7 +14193,7 @@ Epoch:   10/10    Loss: 3.6492671902179716
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14387,7 +14226,7 @@ Epoch:   10/10    Loss: 3.6492671902179716
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14482,13 +14321,13 @@ Epoch:   10/10    Loss: 3.6492671902179716
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># run the cell multiple times to get different results!</span>
 <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">empty_cache</span><span class="p">()</span>
 <span class="n">gen_length</span> <span class="o">=</span> <span class="mi">400</span> <span class="c1"># modify the length to your preference</span>
-<span class="n">prime_word</span> <span class="o">=</span> <span class="s1">&#39;jerry&#39;</span> <span class="c1"># name for starting the script</span>
+<span class="n">prime_word</span> <span class="o">=</span> <span class="s1">&#39;kramer&#39;</span> <span class="c1"># name for starting the script</span>
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">DON&#39;T MODIFY ANYTHING IN THIS CELL THAT IS BELOW THIS LINE</span>
 <span class="sd">&quot;&quot;&quot;</span>
@@ -14510,59 +14349,71 @@ Epoch:   10/10    Loss: 3.6492671902179716
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">RuntimeError</span>                              Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-12-42307298134e&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      7</span> &#34;&#34;&#34;
-<span class="ansi-green-intense-fg ansi-bold">      8</span> pad_word <span class="ansi-blue-fg">=</span> helper<span class="ansi-blue-fg">.</span>SPECIAL_WORDS<span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;PADDING&#39;</span><span class="ansi-blue-fg">]</span>
-<span class="ansi-green-fg">----&gt; 9</span><span class="ansi-red-fg"> </span>generated_script <span class="ansi-blue-fg">=</span> generate<span class="ansi-blue-fg">(</span>trained_rnn<span class="ansi-blue-fg">,</span> vocab_to_int<span class="ansi-blue-fg">[</span>prime_word <span class="ansi-blue-fg">+</span> <span class="ansi-blue-fg">&#34;:&#34;</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">,</span> int_to_vocab<span class="ansi-blue-fg">,</span> token_dict<span class="ansi-blue-fg">,</span> vocab_to_int<span class="ansi-blue-fg">[</span>pad_word<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">,</span> gen_length<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     10</span> print<span class="ansi-blue-fg">(</span>generated_script<span class="ansi-blue-fg">)</span>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>kramer: columbus.
 
-<span class="ansi-green-fg">&lt;ipython-input-11-b5115ccb6fea&gt;</span> in <span class="ansi-cyan-fg">generate</span><span class="ansi-blue-fg">(rnn, prime_id, int_to_vocab, token_dict, pad_value, predict_len)</span>
-<span class="ansi-green-intense-fg ansi-bold">     32</span> 
-<span class="ansi-green-intense-fg ansi-bold">     33</span>         <span class="ansi-red-fg"># get the output of the rnn</span>
-<span class="ansi-green-fg">---&gt; 34</span><span class="ansi-red-fg">         </span>output<span class="ansi-blue-fg">,</span> _ <span class="ansi-blue-fg">=</span> rnn<span class="ansi-blue-fg">(</span>current_seq<span class="ansi-blue-fg">,</span> hidden<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     35</span> 
-<span class="ansi-green-intense-fg ansi-bold">     36</span>         <span class="ansi-red-fg"># get the next word probabilities</span>
+jerry: oh!
 
-<span class="ansi-green-fg">/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py</span> in <span class="ansi-cyan-fg">__call__</span><span class="ansi-blue-fg">(self, *input, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">    489</span>             result <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>_slow_forward<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">*</span>input<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    490</span>         <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-fg">--&gt; 491</span><span class="ansi-red-fg">             </span>result <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>forward<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">*</span>input<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    492</span>         <span class="ansi-green-fg">for</span> hook <span class="ansi-green-fg">in</span> self<span class="ansi-blue-fg">.</span>_forward_hooks<span class="ansi-blue-fg">.</span>values<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-intense-fg ansi-bold">    493</span>             hook_result <span class="ansi-blue-fg">=</span> hook<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> input<span class="ansi-blue-fg">,</span> result<span class="ansi-blue-fg">)</span>
+george: so, what are you gonna do?
 
-<span class="ansi-green-fg">&lt;ipython-input-6-f50831ca460c&gt;</span> in <span class="ansi-cyan-fg">forward</span><span class="ansi-blue-fg">(self, nn_input, hidden)</span>
-<span class="ansi-green-intense-fg ansi-bold">     38</span>         batch_size <span class="ansi-blue-fg">=</span> nn_input<span class="ansi-blue-fg">.</span>size<span class="ansi-blue-fg">(</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     39</span> 
-<span class="ansi-green-fg">---&gt; 40</span><span class="ansi-red-fg">         </span>embeddings <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>dropout<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">.</span>embedding<span class="ansi-blue-fg">(</span>nn_input<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     41</span>         lstm_out<span class="ansi-blue-fg">,</span> hidden <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>lstm<span class="ansi-blue-fg">(</span>embeddings<span class="ansi-blue-fg">,</span> hidden<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     42</span>         lstm_out <span class="ansi-blue-fg">=</span> lstm_out<span class="ansi-blue-fg">.</span>contiguous<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>view<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">-</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>hidden_dim<span class="ansi-blue-fg">)</span>
+george: well, it&#39;s a big day for a while that was like a little.
 
-<span class="ansi-green-fg">/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py</span> in <span class="ansi-cyan-fg">__call__</span><span class="ansi-blue-fg">(self, *input, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">    489</span>             result <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>_slow_forward<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">*</span>input<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    490</span>         <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-fg">--&gt; 491</span><span class="ansi-red-fg">             </span>result <span class="ansi-blue-fg">=</span> self<span class="ansi-blue-fg">.</span>forward<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">*</span>input<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">**</span>kwargs<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    492</span>         <span class="ansi-green-fg">for</span> hook <span class="ansi-green-fg">in</span> self<span class="ansi-blue-fg">.</span>_forward_hooks<span class="ansi-blue-fg">.</span>values<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-intense-fg ansi-bold">    493</span>             hook_result <span class="ansi-blue-fg">=</span> hook<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> input<span class="ansi-blue-fg">,</span> result<span class="ansi-blue-fg">)</span>
+elaine: i can&#39;t believe that you are. i mean, i don&#39;t want to see the doctor.
 
-<span class="ansi-green-fg">/opt/conda/lib/python3.6/site-packages/torch/nn/modules/sparse.py</span> in <span class="ansi-cyan-fg">forward</span><span class="ansi-blue-fg">(self, input)</span>
-<span class="ansi-green-intense-fg ansi-bold">    106</span>         return F.embedding(
-<span class="ansi-green-intense-fg ansi-bold">    107</span>             input<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>weight<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>padding_idx<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>max_norm<span class="ansi-blue-fg">,</span>
-<span class="ansi-green-fg">--&gt; 108</span><span class="ansi-red-fg">             self.norm_type, self.scale_grad_by_freq, self.sparse)
-</span><span class="ansi-green-intense-fg ansi-bold">    109</span> 
-<span class="ansi-green-intense-fg ansi-bold">    110</span>     <span class="ansi-green-fg">def</span> extra_repr<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+jerry: oh, come on, come on, come on, come on. you know what you can do?
 
-<span class="ansi-green-fg">/opt/conda/lib/python3.6/site-packages/torch/nn/functional.py</span> in <span class="ansi-cyan-fg">embedding</span><span class="ansi-blue-fg">(input, weight, padding_idx, max_norm, norm_type, scale_grad_by_freq, sparse)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1074</span>         <span class="ansi-green-fg">with</span> torch<span class="ansi-blue-fg">.</span>no_grad<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-intense-fg ansi-bold">   1075</span>             torch<span class="ansi-blue-fg">.</span>embedding_renorm_<span class="ansi-blue-fg">(</span>weight<span class="ansi-blue-fg">,</span> input<span class="ansi-blue-fg">,</span> max_norm<span class="ansi-blue-fg">,</span> norm_type<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-fg">-&gt; 1076</span><span class="ansi-red-fg">     </span><span class="ansi-green-fg">return</span> torch<span class="ansi-blue-fg">.</span>embedding<span class="ansi-blue-fg">(</span>weight<span class="ansi-blue-fg">,</span> input<span class="ansi-blue-fg">,</span> padding_idx<span class="ansi-blue-fg">,</span> scale_grad_by_freq<span class="ansi-blue-fg">,</span> sparse<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1077</span> 
-<span class="ansi-green-intense-fg ansi-bold">   1078</span> 
+kramer: i can&#39;t hear you.
 
-<span class="ansi-red-fg">RuntimeError</span>: index out of range at /opt/conda/conda-bld/pytorch_1524584710464/work/aten/src/TH/generic/THTensorMath.c:343</pre>
+elaine: i know.
+
+jerry: what is that?
+
+kramer: oh, that&#39;s what i think about.
+
+morty: what?
+
+jerry: i don&#39;t know what you want to be in the city.
+
+elaine: i thought you were gonna be a nap.
+
+jerry: oh, yeah, well, you know, i can&#39;t get out of that.
+
+george: well, i was not going to have to make it up.
+
+jerry: i guess i was in jail.
+
+elaine:(whispering) well, i guess we were going to be able to see it!
+
+kramer:(whispering) i can&#39;t hear it!
+
+elaine: hey! hey!
+
+[setting: jerry&#39;s bedroom]
+
+jerry: well, it&#39;s not the only time that you have been a problem.
+
+elaine: well, it&#39;s not a good thing, but you have a good idea, or a long time.
+
+george: oh. i can&#39;t do something. i&#39;m sorry, i think we should be able to do it.
+
+george: what?
+
+jerry: yeah, i don&#39;t want to tell it, but you have any permission?
+
+jerry: i don&#39;t think so. i can&#39;t get a little.
+
+george: oh.
+
+kramer: well, i don&#39;t know what you do.
+
+elaine: i think i can go on a long.
+
+kramer: yeah.
+
+jerry: well, i&#39;m sorry. you know what you want to be, and i don&#39;t know what i can.
+
+jerry: i think you could be able
+</pre>
 </div>
 </div>
 
@@ -14580,7 +14431,7 @@ Epoch:   10/10    Loss: 3.6492671902179716
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># save script to a text file</span>
